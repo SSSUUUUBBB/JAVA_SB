@@ -23,5 +23,4 @@ public class Player {
 	public void play(int count) {
 		level.go(count); // PlaverLevel 템플릿 메서드 호출
 	}
-	
 }
