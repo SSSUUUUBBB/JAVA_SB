@@ -39,6 +39,7 @@ public class ArraysEx {
 		}
 		System.out.println();
 		
+		// Arrays.binarySearch(배열, 찾을값)
 		// 이진 탐색(검색) 알고리즘을 사용하여 검색한 후,
 		// 해당 값이 있으면, 그 위치(index)를 변환
 		// 찾지 못했으면, ( -(insertion point) -1 ) 음수를 반환

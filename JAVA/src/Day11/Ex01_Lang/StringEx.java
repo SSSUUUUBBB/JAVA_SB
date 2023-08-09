@@ -28,6 +28,13 @@ public class StringEx {
 		for (int i = 0; i < sp.length; i++) {
 			System.out.println(i + " : \t " + sp[i]);
 		}
+		System.out.println();
+		
+		for (int i = 0; i < str1.length(); i++) {
+			char ch = str1.charAt(i);
+			System.out.print(ch + " ");
+		}
+		System.out.println();
 		
 		String cal = "10+20";
 		String[] num = cal.split("\\+"); // 정규표현식의 + 기호가 아닌 산술연산자 + 로 구분하려면, 앞에 \\ 를 붙여주어야한다.
